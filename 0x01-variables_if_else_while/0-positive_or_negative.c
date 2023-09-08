@@ -4,6 +4,12 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/**
+ * main - Entry point
+ *
+ *Return: Always 0 (Success)
+ */
+
 int main(void)
 {
         int n;
@@ -14,6 +20,7 @@ int main(void)
         printf("%d is ", n);
         
         /* your code goes there */
+
         if (n > 0)
         {
             printf("positive");
