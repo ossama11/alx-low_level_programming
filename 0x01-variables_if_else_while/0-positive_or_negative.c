@@ -9,6 +9,9 @@ int main(void)
 
         srand(time(0));
         n = rand() - RAND_MAX / 2;
+
+        printf("The number %d is ", n);
+        
         /* your code goes there */
         if (n > 0)
         {
