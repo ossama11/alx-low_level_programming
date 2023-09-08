@@ -16,24 +16,21 @@ int main(void)
 
         srand(time(0));
         n = rand() - RAND_MAX / 2;
-
-        printf("%d is ", n);
-        
         /* your code goes there */
 
+        printf("%d is ", n);
         if (n > 0)
         {
-            printf("positive");
+                printf("positive\n");
         }
         else if (n < 0)
         {
-            printf("negative");
+                printf("negative\n");
         }
-        else    
+        else
         {
-            printf("zero");
+                printf("zero\n");
         }
-        printf("\n");
+
         return (0);
 }
-
