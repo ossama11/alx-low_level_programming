@@ -2,10 +2,7 @@
 
 /**
  * times_table - prints the times table of 9
- *
- * Return: void
  */
-
 void times_table(void)
 {
 	int i, j, k;
@@ -43,5 +40,5 @@ void times_table(void)
 		}
 		_putchar('\n');
 	}
-	return (0);
 }
+
