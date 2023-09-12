@@ -5,8 +5,11 @@
  * main - Entry point
  *
  * Return: Always 0 (Success)
- */
-void print_alphabet_x10(void)
+ *
+ * function print_alphabet_x10 - Prints the alphabet in lowercase 10 times.
+ *
+ * */
+void print_alphabet_x10(void) //print_alphabet_x10
 {
 	char c;
 	int i, j;
