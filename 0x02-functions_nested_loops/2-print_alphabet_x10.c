@@ -2,13 +2,9 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- *
- * function print_alphabet_x10 - Prints the alphabet in lowercase 10 times.
- *
- * */
+ * print_alphabet_x10 - Prints the alphabet in lowercase 10 times.
+ * folled by a new line
+ */
 void print_alphabet_x10(void)
 {
 	char c;
@@ -24,4 +20,3 @@ void print_alphabet_x10(void)
 		_putchar('\n');
 	}
 }
-
