@@ -6,15 +6,16 @@
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	char name[] = "_putchar";
-    	int i;
-    	for (i = 0; name[i] != '\0'; i++) {
+	int i;
+
+	for (i = 0; name[i] != '\0'; i++)
+	{
 		_putchar(name[i]);
-    	}
-	
-    	_putchar('\n');
-    return 0;
+	}
+
+	_putchar('\n');
+	return (0);
 }
