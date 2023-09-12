@@ -7,15 +7,14 @@
  * Return: Always 0 (Success)
  */
 
-int main()
+int main(void)
 {
-    char name[] = "_putchar";
-    int i;
-
-    for (i = 0; name[i] != '\0'; i++) {
-        _putchar(name[i]);
-    }
+	char name[] = "_putchar";
+    	int i;
+    	for (i = 0; name[i] != '\0'; i++) {
+		_putchar(name[i]);
+    	}
 	
-    _putchar('\n');
+    	_putchar('\n');
     return 0;
 }
