@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include "main.h"
 
 /**
 * argstostr - Concatenates all the arguments of the program
@@ -26,7 +26,7 @@ char *argstostr(int ac, char **av)
 		total_len += len + 1;
 	}
 
-	str = malloc(total_len * sizeof(char));
+	str = malloc((total_len + 1) * sizeof(char));
 	if (str == NULL)
 		return (NULL);
 
@@ -43,6 +43,8 @@ char *argstostr(int ac, char **av)
 		str[k] = '\n';
 		k++;
 	}
+
+	str[k] = '\0';
 
 	return (str);
 }
