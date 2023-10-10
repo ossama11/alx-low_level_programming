@@ -1,6 +1,10 @@
 #ifndef DOG_H
 #define DOG_H
 
+
+
+typedef struct dog dog_t;
+
 /**
  * struct dog - Represents information about a dog.
  * @name: the dog's name.
